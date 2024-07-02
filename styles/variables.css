@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter';
+    --accent-font: 'Press Start 2P';
+    --background-color: #fff;
+    --accent-color: #000;
+    --color-button-animation: #fff;
+    --font-weight_main-normal: 400;
+    --font-weight_main-bold: 700;
+    --bg-image_gradient: repeating-linear-gradient(to right, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+    repeating-linear-gradient(to bottom, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --fill-red: #FF0000;
+}

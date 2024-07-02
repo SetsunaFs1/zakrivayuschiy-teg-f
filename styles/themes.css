@@ -4,3 +4,40 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+    --background-color: #fff;
+    --accent-color: #000;
+    --color-button-animation: #fff;
+    --font-weight_main-normal: 400;
+    --font-weight_main-bold: 700;
+    --bg-image_gradient: repeating-linear-gradient(to right, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+    repeating-linear-gradient(to bottom, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --fill-red: #FF0000;
+}
+
+:root.theme-dark {
+    --background-color: #000;
+    --accent-color: #00CC14;
+    --color-button-animation: ##00CC14;
+    --font-weight_main-normal: 465;
+    --font-weight_main-bold: 785;
+    --bg-image_gradient: repeating-linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 2px, rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px),
+    repeating-linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 2px, rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px),
+    linear-gradient(to bottom, #007f0c, #004306 100%);
+    --fill-red: #FF0000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000;
+        --accent-color: #00CC14;
+        --color-button-animation: #000;
+        --font-weight_main-normal: 465;
+        --font-weight_main-bold: 785;
+        --bg-image_gradient: repeating-linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 2px, rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px),
+        repeating-linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 2px, rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px),
+        linear-gradient(to bottom, #007f0c, #004306 100%);
+        --fill-red: #FF0000;
+    }
+}
