@@ -224,6 +224,7 @@
   position: relative;
   z-index: 2;
   transition: color 0.5s ease-in-out;
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button {
@@ -237,10 +238,10 @@
 }
 
 .card__like-button, .button-save {
-  transition: box-shadow 0.3s ease;
+  /* transition: box-shadow 0.3s ease; */
 }
 
-.card__like-button:focus, .button-save:focus {
+.card__like-button:focus, .button-save:focus, .dialog__button:focus {
   outline: none;
   box-shadow: 2px 2px 0 0 var(--accent-color);
 }
