@@ -236,12 +236,12 @@
   padding: 9px 17px;
 }
 
-.card__like-button:focus, .button-save:focus, .dialog__button:focus {
+.button:focus {
   outline: none;
   box-shadow: 2px 2px 0 0 var(--accent-color);
 }
 
-.card__like-button::after, .button-save::after, .dialog__button::after {
+.button::after {
   content: '';
   position: absolute;
   top: 0;
@@ -256,7 +256,7 @@
   z-index: -1;
 }
 
-.card__like-button:hover::after, .button-save:hover::after, .dialog__button:hover::after {
+.button:hover::after {
   transform: scaleX(1);
 }
 
