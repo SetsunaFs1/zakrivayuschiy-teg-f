@@ -11,5 +11,6 @@
 - Реализовала анимации на странице
   
 **Результат:** практика в работе с адаптивностью, создание анимации с помощью CSS.
-  
-**https://github.com/SetsunaFs1/zakrivayuschiy-teg-f**
+
+**Ссылка на страницу:**
+**https://setsunafs1.github.io/zakrivayuschiy-teg-f/**
